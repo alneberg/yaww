@@ -1,0 +1,13 @@
+#!/bin/usr/env python
+""" yaww - Yet Another Work launching Wrapper
+
+"""
+
+from argparse import ArgumentParser
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    parser = ArgumentParser(usage=__doc__)
+    args = parser.parse_args()
